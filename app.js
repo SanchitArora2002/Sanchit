@@ -26,9 +26,9 @@
 
         const profileImage = document.getElementById("profile-image");
         if (document.body.classList.contains("dark-mode")) {
-            profileImage.src = "2.PNG"; // Dark mode image
+            profileImage.src = "img/Profile.PNG"; // Dark mode image
         } else {
-            profileImage.src = "1.PNG"; // Light mode image
+            profileImage.src = "img/Profile.PNG"; // Light mode image
         }
     });
 })();
