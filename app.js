@@ -11,12 +11,12 @@
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("dark-mode");
 
-        // const profileImage = document.getElementById("profile-image");
-        // if (document.body.classList.contains("dark-mode")) {
-        //     profileImage.src = "img/Profile.PNG"; // Dark mode image
-        // } else {
-        //     profileImage.src = "img/Profile.PNG"; // Light mode image
-        // }
+        const profileImage = document.getElementById("profile-image");
+        if (document.body.classList.contains("dark-mode")) {
+            profileImage.src = "img/Profile.PNG"; // Dark mode image
+        } else {
+            profileImage.src = "img/Profile.PNG"; // Light mode image
+        }
     });
 })();
 
